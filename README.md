@@ -18,6 +18,7 @@ Install the following extensions:
 * Python Extension Pack by Don Jayamanne
 * Path Intellisense by Christian Kohler
 * Rainbow CSV by mechatroner
+* GitHub Markdown Preview by Matt Bierner
 
 ### Install Ollama
 Follow the instructions [here](https://ollama.com/) to install Ollama.
