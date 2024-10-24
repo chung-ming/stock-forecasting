@@ -1,4 +1,13 @@
 .venv
 .DS_Store
 stock-forecasting.code-workspace
+
 /stock_price/full_history
+
+stock_news/external/all_external.csv
+stock_news/external/external_goog.csv
+stock_news/external/external_googl.csv
+
+stock_news/nasdaq/nasdaq_external_data.csv
+stock_news/nasdaq/nasdaq_goog.csv
+stock_news/nasdaq/nasdaq_googl.csv
