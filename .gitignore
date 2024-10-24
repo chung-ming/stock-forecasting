@@ -2,8 +2,6 @@
 .DS_Store
 stock-forecasting.code-workspace
 
-/stock_price/full_history
-
 stock_news/external/all_external.csv
 stock_news/external/external_goog.csv
 stock_news/external/external_googl.csv
