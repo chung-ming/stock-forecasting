@@ -1,0 +1,13 @@
+ipykernel>=6.29.5
+ipywidgets>=8.1.5
+langchain-ollama>=0.2.0
+nltk>=3.9.1
+numpy>=1.26.4
+pyspark>=3.5.3
+python-dotenv>=1.0.1
+setuptools>=75.2.0
+sumy>=0.11.0
+tensorflow>=2.16.2
+tokenizers>=0.20.1
+torch>=2.2.2
+transformers>=4.45.2
