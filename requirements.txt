@@ -1,9 +1,12 @@
 jupyter
 langchain-ollama
+matplotlib
 nltk
 numpy
+pandas
 pyspark
 python-dotenv
+scikit-learn
 sumy
 tensorflow
 tokenizers

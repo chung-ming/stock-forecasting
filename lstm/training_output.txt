@@ -1,0 +1,1538 @@
+aa.csv
+[Model] Model Compiled
+Time taken: 0:00:00.133597
+X: (13214, 49, 3)
+Y: (13214, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 413 batches per epoch
+Epoch 1/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m33s[0m 67ms/step - loss: 0.0116
+Epoch 2/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m30s[0m 72ms/step - loss: 0.0024
+Epoch 3/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m30s[0m 74ms/step - loss: 0.0017
+Epoch 4/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m36s[0m 88ms/step - loss: 0.0013
+Epoch 5/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m32s[0m 78ms/step - loss: 0.0010
+Epoch 6/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m30s[0m 73ms/step - loss: 9.1654e-04
+Epoch 7/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m31s[0m 75ms/step - loss: 8.1905e-04
+Epoch 8/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m31s[0m 76ms/step - loss: 7.8427e-04
+Epoch 9/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m32s[0m 78ms/step - loss: 7.5262e-04
+Epoch 10/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m33s[0m 79ms/step - loss: 8.1612e-04
+Epoch 11/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m33s[0m 79ms/step - loss: 6.4007e-04
+Epoch 12/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m33s[0m 79ms/step - loss: 6.9788e-04
+Epoch 13/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m34s[0m 82ms/step - loss: 5.7018e-04
+Epoch 14/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m34s[0m 83ms/step - loss: 6.1231e-04
+Epoch 15/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 5.8547e-04
+Epoch 16/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 84ms/step - loss: 5.7203e-04
+Epoch 17/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - loss: 5.1939e-04  
+Epoch 18/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 198us/step - loss: 0.0000e+00
+Epoch 19/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 70us/step - loss: 0.0000e+00
+Epoch 20/20
+2024-10-27 02:22:39.772468: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 02:22:39.860433: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 02:22:39.944189: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 71us/step - loss: 0.0000e+00
+[Model] Training Completed. Model saved as saved_models/LSTM_sentiment_5.keras
+Time taken: 0:08:43.353695
+aapl.csv
+[Model] Loading model from file saved_models/LSTM_sentiment_5.keras
+2024-10-27 02:22:39.975693: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+X: (9174, 49, 3)
+Y: (9174, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 287 batches per epoch
+Epoch 1/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m27s[0m 80ms/step - loss: 0.0044
+Epoch 2/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m23s[0m 80ms/step - loss: 0.0034
+Epoch 3/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 83ms/step - loss: 0.0033
+Epoch 4/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 84ms/step - loss: 0.0026
+Epoch 5/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 87ms/step - loss: 0.0030
+Epoch 6/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 83ms/step - loss: 0.0030
+Epoch 7/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 83ms/step - loss: 0.0027
+Epoch 8/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 85ms/step - loss: 0.0025
+Epoch 9/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 87ms/step - loss: 0.0028
+Epoch 10/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 87ms/step - loss: 0.0024
+Epoch 11/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 87ms/step - loss: 0.0023
+Epoch 12/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 85ms/step - loss: 0.0025
+Epoch 13/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 85ms/step - loss: 0.0024
+Epoch 14/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 88ms/step - loss: 0.0035
+Epoch 15/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m26s[0m 91ms/step - loss: 0.0023
+Epoch 16/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m26s[0m 91ms/step - loss: 0.0023
+Epoch 17/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - loss: 2.5501e-04  
+Epoch 18/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 375us/step - loss: 0.0000e+00
+Epoch 19/20
+2024-10-27 02:29:17.127381: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 02:29:17.239269: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 02:29:17.326131: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 101us/step - loss: 0.0000e+00
+Epoch 20/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 97us/step - loss: 0.0000e+00
+[Model] Training Completed. Model saved as saved_models/LSTM_sentiment_5.keras
+Time taken: 0:06:36.616978
+amzn.csv
+[Model] Loading model from file saved_models/LSTM_sentiment_5.keras
+2024-10-27 02:29:17.356938: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+X: (5645, 49, 3)
+Y: (5645, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 177 batches per epoch
+Epoch 1/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m18s[0m 79ms/step - loss: 0.0133
+Epoch 2/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m14s[0m 80ms/step - loss: 0.0133
+Epoch 3/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 83ms/step - loss: 0.0081
+Epoch 4/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 86ms/step - loss: 0.0082
+Epoch 5/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 86ms/step - loss: 0.0071
+Epoch 6/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 86ms/step - loss: 0.0072
+Epoch 7/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 86ms/step - loss: 0.0066
+Epoch 8/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 86ms/step - loss: 0.0089
+Epoch 9/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 83ms/step - loss: 0.0079
+Epoch 10/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 83ms/step - loss: 0.0083
+Epoch 11/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 84ms/step - loss: 0.0097
+Epoch 12/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 86ms/step - loss: 0.0065
+Epoch 13/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 86ms/step - loss: 0.0069
+Epoch 14/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 86ms/step - loss: 0.0069
+Epoch 15/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 87ms/step - loss: 0.0071
+Epoch 16/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 86ms/step - loss: 0.0072
+Epoch 17/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 87ms/step - loss: 0.0067
+Epoch 18/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 87ms/step - loss: 0.0069
+Epoch 19/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m16s[0m 89ms/step - loss: 0.0060
+Epoch 20/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m16s[0m 90ms/step - loss: 0.0077
+[Model] Training Completed. Model saved as saved_models/LSTM_sentiment_5.keras
+Time taken: 0:05:05.776055
+msft.csv
+[Model] Loading model from file saved_models/LSTM_sentiment_5.keras
+X: (8047, 49, 3)
+Y: (8047, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 252 batches per epoch
+Epoch 1/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 81ms/step - loss: 0.0011
+Epoch 2/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 85ms/step - loss: 0.0011
+Epoch 3/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 88ms/step - loss: 0.0011
+Epoch 4/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 87ms/step - loss: 0.0011
+Epoch 5/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 87ms/step - loss: 9.9455e-04
+Epoch 6/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 87ms/step - loss: 0.0011
+Epoch 7/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 87ms/step - loss: 0.0010
+Epoch 8/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 88ms/step - loss: 0.0011
+Epoch 9/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 87ms/step - loss: 9.5561e-04
+Epoch 10/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 84ms/step - loss: 0.0010
+Epoch 11/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 83ms/step - loss: 0.0011
+Epoch 12/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 86ms/step - loss: 0.0010
+Epoch 13/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 87ms/step - loss: 0.0010
+Epoch 14/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 87ms/step - loss: 9.5788e-04
+Epoch 15/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 85ms/step - loss: 0.0010
+Epoch 16/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 84ms/step - loss: 0.0010
+Epoch 17/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 85ms/step - loss: 9.4567e-04
+Epoch 18/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 87ms/step - loss: 0.0010
+Epoch 19/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 87ms/step - loss: 0.0010
+Epoch 20/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 86ms/step - loss: 9.2667e-04
+[Model] Training Completed. Model saved as saved_models/LSTM_sentiment_5.keras
+Time taken: 0:07:16.616591
+tsla.csv
+[Model] Loading model from file saved_models/LSTM_sentiment_5.keras
+X: (2839, 49, 3)
+Y: (2839, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 89 batches per epoch
+Epoch 1/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m11s[0m 79ms/step - loss: 0.0064
+Epoch 2/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 78ms/step - loss: 0.0226
+Epoch 3/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 82ms/step - loss: 0.0112
+Epoch 4/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 84ms/step - loss: 0.0293
+Epoch 5/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 85ms/step - loss: 0.0208
+Epoch 6/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 88ms/step - loss: 0.0085
+Epoch 7/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 89ms/step - loss: 0.0039
+Epoch 8/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 87ms/step - loss: 0.0059
+Epoch 9/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 89ms/step - loss: 0.0059
+Epoch 10/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 88ms/step - loss: 0.0026
+Epoch 11/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 88ms/step - loss: 0.0040
+Epoch 12/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 88ms/step - loss: 0.0039
+Epoch 13/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 88ms/step - loss: 0.0034
+Epoch 14/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 88ms/step - loss: 0.0039
+Epoch 15/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 87ms/step - loss: 0.0035
+Epoch 16/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 88ms/step - loss: 0.0033
+Epoch 17/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 86ms/step - loss: 0.0036
+Epoch 18/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 84ms/step - loss: 0.0049
+Epoch 19/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 85ms/step - loss: 0.0080
+Epoch 20/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 84ms/step - loss: 0.0072
+[Model] Training Completed. Model saved as saved_models/LSTM_sentiment_5.keras
+Time taken: 0:02:36.625147
+aa.csv
+[Model] Model Compiled
+Time taken: 0:00:00.104138
+X: (13214, 49, 2)
+Y: (13214, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 413 batches per epoch
+Epoch 1/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m39s[0m 80ms/step - loss: 0.0076
+Epoch 2/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m36s[0m 88ms/step - loss: 0.0030
+Epoch 3/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m36s[0m 88ms/step - loss: 0.0016
+Epoch 4/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 0.0011
+Epoch 5/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 84ms/step - loss: 9.6661e-04
+Epoch 6/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m36s[0m 87ms/step - loss: 8.2413e-04
+Epoch 7/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 7.3311e-04
+Epoch 8/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 84ms/step - loss: 8.0760e-04
+Epoch 9/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 84ms/step - loss: 6.7619e-04
+Epoch 10/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 6.2476e-04
+Epoch 11/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 86ms/step - loss: 5.7113e-04
+Epoch 12/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 84ms/step - loss: 6.2027e-04
+Epoch 13/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 6.8062e-04
+Epoch 14/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 5.2661e-04
+Epoch 15/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m36s[0m 88ms/step - loss: 4.8887e-04
+Epoch 16/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 5.6379e-04
+Epoch 17/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - loss: 5.1704e-04  
+Epoch 18/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 198us/step - loss: 0.0000e+00
+Epoch 19/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 67us/step - loss: 0.0000e+00
+Epoch 20/20
+2024-10-27 02:53:48.268470: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 02:53:48.353816: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 02:53:48.438078: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 02:53:48.467995: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 67us/step - loss: 0.0000e+00
+[Model] Training Completed. Model saved as saved_models/LSTM_non-sentiment_5.keras
+Time taken: 0:09:29.812661
+aapl.csv
+[Model] Loading model from file saved_models/LSTM_non-sentiment_5.keras
+X: (9174, 49, 2)
+Y: (9174, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 287 batches per epoch
+Epoch 1/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m26s[0m 78ms/step - loss: 0.0048
+Epoch 2/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 84ms/step - loss: 0.0036
+Epoch 3/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 87ms/step - loss: 0.0034
+Epoch 4/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 86ms/step - loss: 0.0028
+Epoch 5/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 84ms/step - loss: 0.0028
+Epoch 6/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 85ms/step - loss: 0.0026
+Epoch 7/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m26s[0m 89ms/step - loss: 0.0030
+Epoch 8/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 88ms/step - loss: 0.0023
+Epoch 9/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 88ms/step - loss: 0.0036
+Epoch 10/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 87ms/step - loss: 0.0029
+Epoch 11/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 87ms/step - loss: 0.0023
+Epoch 12/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 87ms/step - loss: 0.0027
+Epoch 13/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 87ms/step - loss: 0.0016
+Epoch 14/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 87ms/step - loss: 0.0037
+Epoch 15/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 87ms/step - loss: 0.0029
+Epoch 16/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 86ms/step - loss: 0.0018
+Epoch 17/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - loss: 2.1339e-04  
+Epoch 18/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 286us/step - loss: 0.0000e+00
+Epoch 19/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 98us/step - loss: 0.0000e+00
+Epoch 20/20
+2024-10-27 03:00:29.151475: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 03:00:29.236713: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 03:00:29.321508: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 03:00:29.349602: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 94us/step - loss: 0.0000e+00
+[Model] Training Completed. Model saved as saved_models/LSTM_non-sentiment_5.keras
+Time taken: 0:06:40.153999
+amzn.csv
+[Model] Loading model from file saved_models/LSTM_non-sentiment_5.keras
+X: (5645, 49, 2)
+Y: (5645, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 177 batches per epoch
+Epoch 1/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m18s[0m 77ms/step - loss: 0.0113
+Epoch 2/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m14s[0m 79ms/step - loss: 0.0119
+Epoch 3/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 82ms/step - loss: 0.0109
+Epoch 4/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 83ms/step - loss: 0.0098
+Epoch 5/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m17s[0m 97ms/step - loss: 0.0092
+Epoch 6/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m16s[0m 88ms/step - loss: 0.0100
+Epoch 7/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 87ms/step - loss: 0.0080
+Epoch 8/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m16s[0m 88ms/step - loss: 0.0074
+Epoch 9/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 83ms/step - loss: 0.0091
+Epoch 10/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 84ms/step - loss: 0.0065
+Epoch 11/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 86ms/step - loss: 0.0075
+Epoch 12/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m16s[0m 92ms/step - loss: 0.0072
+Epoch 13/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m16s[0m 89ms/step - loss: 0.0087
+Epoch 14/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m16s[0m 91ms/step - loss: 0.0078
+Epoch 15/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m17s[0m 97ms/step - loss: 0.0083
+Epoch 16/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m18s[0m 100ms/step - loss: 0.0079
+Epoch 17/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m17s[0m 96ms/step - loss: 0.0064
+Epoch 18/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m16s[0m 90ms/step - loss: 0.0056
+Epoch 19/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 84ms/step - loss: 0.0054
+Epoch 20/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 83ms/step - loss: 0.0058
+[Model] Training Completed. Model saved as saved_models/LSTM_non-sentiment_5.keras
+Time taken: 0:05:14.875633
+msft.csv
+[Model] Loading model from file saved_models/LSTM_non-sentiment_5.keras
+X: (8047, 49, 2)
+Y: (8047, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 252 batches per epoch
+Epoch 1/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m23s[0m 79ms/step - loss: 0.0010
+Epoch 2/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m23s[0m 90ms/step - loss: 0.0012
+Epoch 3/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m23s[0m 91ms/step - loss: 0.0010
+Epoch 4/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 96ms/step - loss: 0.0011
+Epoch 5/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 87ms/step - loss: 9.6988e-04
+Epoch 6/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 84ms/step - loss: 0.0010
+Epoch 7/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 84ms/step - loss: 0.0010
+Epoch 8/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 85ms/step - loss: 0.0011
+Epoch 9/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 88ms/step - loss: 0.0010
+Epoch 10/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 87ms/step - loss: 0.0010
+Epoch 11/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 84ms/step - loss: 9.6862e-04
+Epoch 12/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 84ms/step - loss: 9.8193e-04
+Epoch 13/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 84ms/step - loss: 0.0010
+Epoch 14/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 84ms/step - loss: 0.0010
+Epoch 15/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 85ms/step - loss: 9.8046e-04
+Epoch 16/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 88ms/step - loss: 9.9929e-04
+Epoch 17/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 86ms/step - loss: 9.6589e-04
+Epoch 18/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 85ms/step - loss: 9.3653e-04
+Epoch 19/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 86ms/step - loss: 0.0010
+Epoch 20/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 85ms/step - loss: 9.7817e-04
+[Model] Training Completed. Model saved as saved_models/LSTM_non-sentiment_5.keras
+Time taken: 0:07:17.369785
+tsla.csv
+[Model] Loading model from file saved_models/LSTM_non-sentiment_5.keras
+X: (2839, 49, 2)
+Y: (2839, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 89 batches per epoch
+Epoch 1/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m12s[0m 88ms/step - loss: 0.0039
+Epoch 2/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 87ms/step - loss: 0.0360
+Epoch 3/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 89ms/step - loss: 0.0271
+Epoch 4/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 91ms/step - loss: 0.0220
+Epoch 5/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 94ms/step - loss: 0.0108
+Epoch 6/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 96ms/step - loss: 0.0073
+Epoch 7/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 97ms/step - loss: 0.0041
+Epoch 8/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 96ms/step - loss: 0.0045
+Epoch 9/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 94ms/step - loss: 0.0029
+Epoch 10/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 94ms/step - loss: 0.0026
+Epoch 11/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 95ms/step - loss: 0.0033
+Epoch 12/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 95ms/step - loss: 0.0025
+Epoch 13/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 95ms/step - loss: 0.0026
+Epoch 14/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 95ms/step - loss: 0.0029
+Epoch 15/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 95ms/step - loss: 0.0033
+Epoch 16/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 95ms/step - loss: 0.0029
+Epoch 17/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 95ms/step - loss: 0.0052
+Epoch 18/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 96ms/step - loss: 0.0037
+Epoch 19/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 95ms/step - loss: 0.0083
+Epoch 20/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m9s[0m 96ms/step - loss: 0.0071
+[Model] Training Completed. Model saved as saved_models/LSTM_non-sentiment_5.keras
+Time taken: 0:02:50.821394
+aa.csv
+[Model] Loading model from file saved_models/LSTM_sentiment_5.keras
+X: (13214, 49, 3)
+Y: (13214, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 413 batches per epoch
+Epoch 1/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m43s[0m 94ms/step - loss: 5.3474e-04
+Epoch 2/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m40s[0m 98ms/step - loss: 6.8443e-04
+Epoch 3/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m41s[0m 100ms/step - loss: 5.4765e-04
+Epoch 4/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m40s[0m 96ms/step - loss: 4.4815e-04
+Epoch 5/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m40s[0m 97ms/step - loss: 5.0603e-04
+Epoch 6/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m40s[0m 98ms/step - loss: 4.7647e-04
+Epoch 7/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m40s[0m 97ms/step - loss: 5.2716e-04
+Epoch 8/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m40s[0m 97ms/step - loss: 4.8277e-04
+Epoch 9/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m40s[0m 98ms/step - loss: 4.2771e-04
+Epoch 10/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m40s[0m 98ms/step - loss: 4.6252e-04
+Epoch 11/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m41s[0m 98ms/step - loss: 4.4776e-04
+Epoch 12/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m42s[0m 103ms/step - loss: 4.8301e-04
+Epoch 13/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m40s[0m 97ms/step - loss: 4.7118e-04
+Epoch 14/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m40s[0m 98ms/step - loss: 4.4718e-04
+Epoch 15/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m40s[0m 97ms/step - loss: 4.6030e-04
+Epoch 16/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m41s[0m 100ms/step - loss: 4.6361e-04
+Epoch 17/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - loss: 4.6818e-04  
+Epoch 18/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 213us/step - loss: 0.0000e+00
+Epoch 19/20
+2024-10-27 03:26:46.547910: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 03:26:46.667671: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 73us/step - loss: 0.0000e+00
+Epoch 20/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 79us/step - loss: 0.0000e+00
+[Model] Training Completed. Model saved as saved_models/LSTM_sentiment_5.keras
+Time taken: 0:10:52.128380
+aapl.csv
+[Model] Loading model from file saved_models/LSTM_sentiment_5.keras
+2024-10-27 03:26:46.759128: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 03:26:46.794147: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+X: (9174, 49, 3)
+Y: (9174, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 287 batches per epoch
+Epoch 1/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m29s[0m 87ms/step - loss: 0.0039
+Epoch 2/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m27s[0m 94ms/step - loss: 0.0035
+Epoch 3/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m27s[0m 95ms/step - loss: 0.0044
+Epoch 4/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m27s[0m 93ms/step - loss: 0.0023
+Epoch 5/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m26s[0m 89ms/step - loss: 0.0029
+Epoch 6/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 87ms/step - loss: 0.0032
+Epoch 7/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m26s[0m 90ms/step - loss: 0.0025
+Epoch 8/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m26s[0m 92ms/step - loss: 0.0017
+Epoch 9/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m27s[0m 93ms/step - loss: 0.0020
+Epoch 10/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m27s[0m 93ms/step - loss: 0.0015
+Epoch 11/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m26s[0m 90ms/step - loss: 0.0025
+Epoch 12/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 87ms/step - loss: 0.0022
+Epoch 13/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m26s[0m 90ms/step - loss: 0.0018
+Epoch 14/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m26s[0m 91ms/step - loss: 0.0022
+Epoch 15/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m26s[0m 91ms/step - loss: 0.0024
+Epoch 16/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m26s[0m 89ms/step - loss: 0.0015
+Epoch 17/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - loss: 2.0955e-04  
+Epoch 18/20
+2024-10-27 03:33:49.026133: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 03:33:49.114462: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 632us/step - loss: 0.0000e+00
+Epoch 19/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 129us/step - loss: 0.0000e+00
+Epoch 20/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 117us/step - loss: 0.0000e+00
+[Model] Training Completed. Model saved as saved_models/LSTM_sentiment_5.keras
+Time taken: 0:07:01.795347
+amzn.csv
+[Model] Loading model from file saved_models/LSTM_sentiment_5.keras
+2024-10-27 03:33:49.302152: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 03:33:49.341495: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+X: (5645, 49, 3)
+Y: (5645, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 177 batches per epoch
+Epoch 1/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m18s[0m 80ms/step - loss: 0.0102
+Epoch 2/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 84ms/step - loss: 0.0102
+Epoch 3/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 87ms/step - loss: 0.0159
+Epoch 4/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m16s[0m 90ms/step - loss: 0.0132
+Epoch 5/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m16s[0m 90ms/step - loss: 0.0103
+Epoch 6/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 87ms/step - loss: 0.0108
+Epoch 7/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 87ms/step - loss: 0.0093
+Epoch 8/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m16s[0m 88ms/step - loss: 0.0096
+Epoch 9/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m16s[0m 91ms/step - loss: 0.0066
+Epoch 10/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m16s[0m 91ms/step - loss: 0.0068
+Epoch 11/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 88ms/step - loss: 0.0061
+Epoch 12/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 86ms/step - loss: 0.0064
+Epoch 13/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 86ms/step - loss: 0.0070
+Epoch 14/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 83ms/step - loss: 0.0066
+Epoch 15/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 86ms/step - loss: 0.0066
+Epoch 16/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 87ms/step - loss: 0.0078
+Epoch 17/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 87ms/step - loss: 0.0087
+Epoch 18/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 87ms/step - loss: 0.0068
+Epoch 19/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m16s[0m 90ms/step - loss: 0.0058
+Epoch 20/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m16s[0m 91ms/step - loss: 0.0070
+[Model] Training Completed. Model saved as saved_models/LSTM_sentiment_5.keras
+Time taken: 0:05:12.987443
+msft.csv
+[Model] Loading model from file saved_models/LSTM_sentiment_5.keras
+X: (8047, 49, 3)
+Y: (8047, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 252 batches per epoch
+Epoch 1/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 82ms/step - loss: 0.0011
+Epoch 2/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 86ms/step - loss: 0.0010
+Epoch 3/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 89ms/step - loss: 0.0010
+Epoch 4/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m23s[0m 92ms/step - loss: 0.0010
+Epoch 5/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 89ms/step - loss: 0.0010
+Epoch 6/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 86ms/step - loss: 0.0010
+Epoch 7/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 86ms/step - loss: 9.8621e-04
+Epoch 8/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 88ms/step - loss: 9.7364e-04
+Epoch 9/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 88ms/step - loss: 9.9534e-04
+Epoch 10/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 88ms/step - loss: 9.6333e-04
+Epoch 11/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 87ms/step - loss: 9.6705e-04
+Epoch 12/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 88ms/step - loss: 9.4221e-04
+Epoch 13/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m23s[0m 90ms/step - loss: 9.1818e-04
+Epoch 14/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m23s[0m 92ms/step - loss: 9.7037e-04
+Epoch 15/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 87ms/step - loss: 9.3245e-04
+Epoch 16/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 86ms/step - loss: 0.0010
+Epoch 17/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 85ms/step - loss: 9.9264e-04
+Epoch 18/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 89ms/step - loss: 9.2602e-04
+Epoch 19/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m23s[0m 92ms/step - loss: 8.9237e-04
+Epoch 20/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m23s[0m 91ms/step - loss: 8.7169e-04
+[Model] Training Completed. Model saved as saved_models/LSTM_sentiment_5.keras
+Time taken: 0:07:27.886510
+tsla.csv
+[Model] Loading model from file saved_models/LSTM_sentiment_5.keras
+X: (2839, 49, 3)
+Y: (2839, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 89 batches per epoch
+Epoch 1/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m11s[0m 84ms/step - loss: 0.0026
+Epoch 2/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 81ms/step - loss: 0.0131
+Epoch 3/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 84ms/step - loss: 0.0156
+Epoch 4/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 86ms/step - loss: 0.0105
+Epoch 5/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 88ms/step - loss: 0.0051
+Epoch 6/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 89ms/step - loss: 0.0070
+Epoch 7/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 88ms/step - loss: 0.0073
+Epoch 8/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 89ms/step - loss: 0.0027
+Epoch 9/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 93ms/step - loss: 0.0045
+Epoch 10/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 92ms/step - loss: 0.0054
+Epoch 11/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 92ms/step - loss: 0.0026
+Epoch 12/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 94ms/step - loss: 0.0025
+Epoch 13/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 92ms/step - loss: 0.0026
+Epoch 14/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 87ms/step - loss: 0.0028
+Epoch 15/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 89ms/step - loss: 0.0025
+Epoch 16/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 90ms/step - loss: 0.0029
+Epoch 17/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 89ms/step - loss: 0.0028
+Epoch 18/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 92ms/step - loss: 0.0038
+Epoch 19/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 95ms/step - loss: 0.0088
+Epoch 20/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 95ms/step - loss: 0.0069
+[Model] Training Completed. Model saved as saved_models/LSTM_sentiment_5.keras
+Time taken: 0:02:42.972573
+aa.csv
+[Model] Loading model from file saved_models/LSTM_non-sentiment_5.keras
+X: (13214, 49, 2)
+Y: (13214, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 413 batches per epoch
+Epoch 1/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m43s[0m 93ms/step - loss: 7.2643e-04
+Epoch 2/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m36s[0m 88ms/step - loss: 5.9719e-04
+Epoch 3/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m37s[0m 90ms/step - loss: 4.8944e-04
+Epoch 4/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m37s[0m 90ms/step - loss: 5.4493e-04
+Epoch 5/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m37s[0m 91ms/step - loss: 4.5674e-04
+Epoch 6/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m38s[0m 92ms/step - loss: 4.4599e-04
+Epoch 7/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m37s[0m 89ms/step - loss: 5.3369e-04
+Epoch 8/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m37s[0m 90ms/step - loss: 4.4034e-04
+Epoch 9/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m38s[0m 92ms/step - loss: 4.4160e-04
+Epoch 10/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m37s[0m 89ms/step - loss: 4.5563e-04
+Epoch 11/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m37s[0m 90ms/step - loss: 4.8685e-04
+Epoch 12/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m38s[0m 93ms/step - loss: 4.4753e-04
+Epoch 13/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m39s[0m 94ms/step - loss: 4.7523e-04
+Epoch 14/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m40s[0m 98ms/step - loss: 4.6752e-04
+Epoch 15/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m40s[0m 96ms/step - loss: 5.0526e-04
+Epoch 16/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m37s[0m 90ms/step - loss: 4.7524e-04
+Epoch 17/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - loss: 4.9113e-04  
+Epoch 18/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 201us/step - loss: 0.0000e+00
+Epoch 19/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 69us/step - loss: 0.0000e+00
+Epoch 20/20
+2024-10-27 03:59:26.744878: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 03:59:26.836654: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 03:59:26.920627: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 69us/step - loss: 0.0000e+00
+[Model] Training Completed. Model saved as saved_models/LSTM_non-sentiment_5.keras
+Time taken: 0:10:11.320260
+aapl.csv
+[Model] Loading model from file saved_models/LSTM_non-sentiment_5.keras
+2024-10-27 03:59:26.950545: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+X: (9174, 49, 2)
+Y: (9174, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 287 batches per epoch
+Epoch 1/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m27s[0m 82ms/step - loss: 0.0039
+Epoch 2/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m26s[0m 89ms/step - loss: 0.0031
+Epoch 3/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m26s[0m 91ms/step - loss: 0.0029
+Epoch 4/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m26s[0m 89ms/step - loss: 0.0021
+Epoch 5/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 87ms/step - loss: 0.0022
+Epoch 6/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 87ms/step - loss: 0.0026
+Epoch 7/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m26s[0m 90ms/step - loss: 0.0020
+Epoch 8/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m26s[0m 91ms/step - loss: 0.0022
+Epoch 9/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 88ms/step - loss: 0.0031
+Epoch 10/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 87ms/step - loss: 0.0019
+Epoch 11/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 87ms/step - loss: 0.0022
+Epoch 12/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m26s[0m 90ms/step - loss: 0.0019
+Epoch 13/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m26s[0m 91ms/step - loss: 0.0016
+Epoch 14/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 88ms/step - loss: 0.0018
+Epoch 15/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 88ms/step - loss: 0.0027
+Epoch 16/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m26s[0m 91ms/step - loss: 0.0020
+Epoch 17/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - loss: 2.5651e-04  
+Epoch 18/20
+2024-10-27 04:06:19.297560: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 04:06:19.486043: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 647us/step - loss: 0.0000e+00
+Epoch 19/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 115us/step - loss: 0.0000e+00
+Epoch 20/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 110us/step - loss: 0.0000e+00
+[Model] Training Completed. Model saved as saved_models/LSTM_non-sentiment_5.keras
+Time taken: 0:06:52.034889
+amzn.csv
+[Model] Loading model from file saved_models/LSTM_non-sentiment_5.keras
+2024-10-27 04:06:19.583747: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 04:06:19.618410: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+X: (5645, 49, 2)
+Y: (5645, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 177 batches per epoch
+Epoch 1/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 83ms/step - loss: 0.0080
+Epoch 2/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 84ms/step - loss: 0.0284
+Epoch 3/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 88ms/step - loss: 0.0139
+Epoch 4/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m16s[0m 91ms/step - loss: 0.0166
+Epoch 5/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m16s[0m 90ms/step - loss: 0.0164
+Epoch 6/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m17s[0m 93ms/step - loss: 0.0097
+Epoch 7/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m17s[0m 93ms/step - loss: 0.0084
+Epoch 8/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m17s[0m 97ms/step - loss: 0.0064
+Epoch 9/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m17s[0m 97ms/step - loss: 0.0077
+Epoch 10/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m17s[0m 95ms/step - loss: 0.0077
+Epoch 11/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m16s[0m 91ms/step - loss: 0.0066
+Epoch 12/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 86ms/step - loss: 0.0068
+Epoch 13/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 87ms/step - loss: 0.0060
+Epoch 14/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 87ms/step - loss: 0.0066
+Epoch 15/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m16s[0m 88ms/step - loss: 0.0058
+Epoch 16/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 87ms/step - loss: 0.0060
+Epoch 17/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 87ms/step - loss: 0.0062
+Epoch 18/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m16s[0m 88ms/step - loss: 0.0052
+Epoch 19/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 87ms/step - loss: 0.0061
+Epoch 20/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 88ms/step - loss: 0.0074
+[Model] Training Completed. Model saved as saved_models/LSTM_non-sentiment_5.keras
+Time taken: 0:05:20.264193
+msft.csv
+[Model] Loading model from file saved_models/LSTM_non-sentiment_5.keras
+X: (8047, 49, 2)
+Y: (8047, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 252 batches per epoch
+Epoch 1/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m26s[0m 87ms/step - loss: 0.0011
+Epoch 2/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m23s[0m 91ms/step - loss: 0.0010
+Epoch 3/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m23s[0m 93ms/step - loss: 0.0010
+Epoch 4/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m23s[0m 91ms/step - loss: 9.9329e-04
+Epoch 5/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 88ms/step - loss: 0.0010
+Epoch 6/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 87ms/step - loss: 9.9595e-04
+Epoch 7/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 87ms/step - loss: 9.9113e-04
+Epoch 8/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 84ms/step - loss: 9.5327e-04
+Epoch 9/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 84ms/step - loss: 9.8635e-04
+Epoch 10/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 85ms/step - loss: 0.0010
+Epoch 11/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m23s[0m 91ms/step - loss: 0.0010
+Epoch 12/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 88ms/step - loss: 9.8593e-04
+Epoch 13/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 88ms/step - loss: 9.4590e-04
+Epoch 14/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 87ms/step - loss: 9.4233e-04
+Epoch 15/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 84ms/step - loss: 9.4341e-04
+Epoch 16/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 84ms/step - loss: 9.9478e-04
+Epoch 17/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 88ms/step - loss: 9.0439e-04
+Epoch 18/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 88ms/step - loss: 9.6847e-04
+Epoch 19/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 86ms/step - loss: 9.2763e-04
+Epoch 20/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 84ms/step - loss: 9.8440e-04
+[Model] Training Completed. Model saved as saved_models/LSTM_non-sentiment_5.keras
+Time taken: 0:07:23.927424
+tsla.csv
+[Model] Loading model from file saved_models/LSTM_non-sentiment_5.keras
+X: (2839, 49, 2)
+Y: (2839, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 89 batches per epoch
+Epoch 1/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m11s[0m 81ms/step - loss: 0.0036
+Epoch 2/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 82ms/step - loss: 0.0167
+Epoch 3/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 81ms/step - loss: 0.0073
+Epoch 4/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 83ms/step - loss: 0.0081
+Epoch 5/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 85ms/step - loss: 0.0029
+Epoch 6/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 86ms/step - loss: 0.0030
+Epoch 7/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 87ms/step - loss: 0.0043
+Epoch 8/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 88ms/step - loss: 0.0037
+Epoch 9/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 88ms/step - loss: 0.0076
+Epoch 10/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 88ms/step - loss: 0.0070
+Epoch 11/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 88ms/step - loss: 0.0038
+Epoch 12/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 88ms/step - loss: 0.0038
+Epoch 13/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 89ms/step - loss: 0.0047
+Epoch 14/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 87ms/step - loss: 0.0030
+Epoch 15/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 86ms/step - loss: 0.0027
+Epoch 16/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 83ms/step - loss: 0.0027
+Epoch 17/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 84ms/step - loss: 0.0029
+Epoch 18/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 85ms/step - loss: 0.0027
+Epoch 19/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 85ms/step - loss: 0.0077
+Epoch 20/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 83ms/step - loss: 0.0071
+[Model] Training Completed. Model saved as saved_models/LSTM_non-sentiment_5.keras
+Time taken: 0:02:35.835933
+aa.csv
+[Model] Loading model from file saved_models/LSTM_sentiment_5.keras
+X: (13214, 49, 3)
+Y: (13214, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 413 batches per epoch
+Epoch 1/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m39s[0m 84ms/step - loss: 7.4573e-04
+Epoch 2/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m36s[0m 88ms/step - loss: 4.8725e-04
+Epoch 3/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m36s[0m 88ms/step - loss: 4.6120e-04
+Epoch 4/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 4.4592e-04
+Epoch 5/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 4.1955e-04
+Epoch 6/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 4.3979e-04
+Epoch 7/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 4.2003e-04
+Epoch 8/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m36s[0m 88ms/step - loss: 4.5444e-04
+Epoch 9/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 4.5380e-04
+Epoch 10/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 4.4798e-04
+Epoch 11/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 5.0318e-04
+Epoch 12/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 4.3515e-04
+Epoch 13/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 4.4738e-04
+Epoch 14/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 4.4595e-04
+Epoch 15/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 4.1132e-04
+Epoch 16/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 4.5177e-04
+Epoch 17/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - loss: 4.1382e-04  
+Epoch 18/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 197us/step - loss: 0.0000e+00
+Epoch 19/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 67us/step - loss: 0.0000e+00
+Epoch 20/20
+2024-10-27 04:31:12.707553: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 04:31:12.793678: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 04:31:12.877320: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 04:31:12.906403: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 67us/step - loss: 0.0000e+00
+[Model] Training Completed. Model saved as saved_models/LSTM_sentiment_5.keras
+Time taken: 0:09:30.934225
+aapl.csv
+[Model] Loading model from file saved_models/LSTM_sentiment_5.keras
+X: (9174, 49, 3)
+Y: (9174, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 287 batches per epoch
+Epoch 1/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m26s[0m 77ms/step - loss: 0.0037
+Epoch 2/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 82ms/step - loss: 0.0041
+Epoch 3/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 85ms/step - loss: 0.0027
+Epoch 4/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 86ms/step - loss: 0.0022
+Epoch 5/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 83ms/step - loss: 0.0020
+Epoch 6/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 83ms/step - loss: 0.0025
+Epoch 7/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 83ms/step - loss: 0.0034
+Epoch 8/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m23s[0m 81ms/step - loss: 0.0028
+Epoch 9/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 83ms/step - loss: 0.0031
+Epoch 10/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 84ms/step - loss: 0.0023
+Epoch 11/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 87ms/step - loss: 0.0024
+Epoch 12/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 84ms/step - loss: 0.0023
+Epoch 13/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 84ms/step - loss: 0.0021
+Epoch 14/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 84ms/step - loss: 0.0021
+Epoch 15/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 84ms/step - loss: 0.0015
+Epoch 16/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 84ms/step - loss: 0.0020
+Epoch 17/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - loss: 2.3166e-04  
+Epoch 18/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 286us/step - loss: 0.0000e+00
+Epoch 19/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 96us/step - loss: 0.0000e+00
+Epoch 20/20
+2024-10-27 04:37:40.760377: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 04:37:40.847457: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 04:37:40.931009: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 99us/step - loss: 0.0000e+00
+[Model] Training Completed. Model saved as saved_models/LSTM_sentiment_5.keras
+Time taken: 0:06:27.394746
+amzn.csv
+[Model] Loading model from file saved_models/LSTM_sentiment_5.keras
+2024-10-27 04:37:40.960682: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+X: (5645, 49, 3)
+Y: (5645, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 177 batches per epoch
+Epoch 1/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m18s[0m 81ms/step - loss: 0.0121
+Epoch 2/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m14s[0m 80ms/step - loss: 0.0330
+Epoch 3/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m14s[0m 81ms/step - loss: 0.0225
+Epoch 4/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m14s[0m 82ms/step - loss: 0.0266
+Epoch 5/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 84ms/step - loss: 0.0092
+Epoch 6/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 84ms/step - loss: 0.0102
+Epoch 7/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 84ms/step - loss: 0.0064
+Epoch 8/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 84ms/step - loss: 0.0056
+Epoch 9/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 83ms/step - loss: 0.0063
+Epoch 10/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m14s[0m 81ms/step - loss: 0.0063
+Epoch 11/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m14s[0m 81ms/step - loss: 0.0076
+Epoch 12/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 85ms/step - loss: 0.0064
+Epoch 13/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 84ms/step - loss: 0.0057
+Epoch 14/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 84ms/step - loss: 0.0057
+Epoch 15/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 84ms/step - loss: 0.0058
+Epoch 16/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 84ms/step - loss: 0.0058
+Epoch 17/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 84ms/step - loss: 0.0068
+Epoch 18/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 84ms/step - loss: 0.0074
+Epoch 19/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 84ms/step - loss: 0.0067
+Epoch 20/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 85ms/step - loss: 0.0063
+[Model] Training Completed. Model saved as saved_models/LSTM_sentiment_5.keras
+Time taken: 0:04:57.939143
+msft.csv
+[Model] Loading model from file saved_models/LSTM_sentiment_5.keras
+X: (8047, 49, 3)
+Y: (8047, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 252 batches per epoch
+Epoch 1/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m23s[0m 78ms/step - loss: 0.0012
+Epoch 2/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 83ms/step - loss: 0.0011
+Epoch 3/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 84ms/step - loss: 0.0011
+Epoch 4/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 85ms/step - loss: 0.0011
+Epoch 5/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 86ms/step - loss: 0.0011
+Epoch 6/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 86ms/step - loss: 0.0011
+Epoch 7/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 84ms/step - loss: 9.8918e-04
+Epoch 8/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 83ms/step - loss: 0.0010
+Epoch 9/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 82ms/step - loss: 9.9424e-04
+Epoch 10/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 84ms/step - loss: 9.4761e-04
+Epoch 11/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 85ms/step - loss: 9.4241e-04
+Epoch 12/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 88ms/step - loss: 9.4561e-04
+Epoch 13/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 86ms/step - loss: 9.5134e-04
+Epoch 14/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 84ms/step - loss: 9.2004e-04
+Epoch 15/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 84ms/step - loss: 9.1152e-04
+Epoch 16/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 84ms/step - loss: 0.0010
+Epoch 17/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 84ms/step - loss: 9.1006e-04
+Epoch 18/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 84ms/step - loss: 8.9518e-04
+Epoch 19/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 84ms/step - loss: 8.9721e-04
+Epoch 20/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 84ms/step - loss: 9.2881e-04
+[Model] Training Completed. Model saved as saved_models/LSTM_sentiment_5.keras
+Time taken: 0:07:07.419953
+tsla.csv
+[Model] Loading model from file saved_models/LSTM_sentiment_5.keras
+X: (2839, 49, 3)
+Y: (2839, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 89 batches per epoch
+Epoch 1/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m11s[0m 82ms/step - loss: 0.0035
+Epoch 2/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 81ms/step - loss: 0.0134
+Epoch 3/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 81ms/step - loss: 0.0074
+Epoch 4/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 82ms/step - loss: 0.0034
+Epoch 5/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 81ms/step - loss: 0.0032
+Epoch 6/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 83ms/step - loss: 0.0034
+Epoch 7/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 84ms/step - loss: 0.0042
+Epoch 8/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 84ms/step - loss: 0.0038
+Epoch 9/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 84ms/step - loss: 0.0025
+Epoch 10/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 87ms/step - loss: 0.0027
+Epoch 11/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 89ms/step - loss: 0.0025
+Epoch 12/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 87ms/step - loss: 0.0029
+Epoch 13/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 88ms/step - loss: 0.0027
+Epoch 14/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 86ms/step - loss: 0.0028
+Epoch 15/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 83ms/step - loss: 0.0028
+Epoch 16/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 84ms/step - loss: 0.0025
+Epoch 17/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 84ms/step - loss: 0.0030
+Epoch 18/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 84ms/step - loss: 0.0029
+Epoch 19/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 84ms/step - loss: 0.0078
+Epoch 20/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 85ms/step - loss: 0.0069
+[Model] Training Completed. Model saved as saved_models/LSTM_sentiment_5.keras
+Time taken: 0:02:33.459845
+aa.csv
+[Model] Loading model from file saved_models/LSTM_non-sentiment_5.keras
+X: (13214, 49, 2)
+Y: (13214, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 413 batches per epoch
+Epoch 1/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m37s[0m 81ms/step - loss: 5.9452e-04
+Epoch 2/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 5.8179e-04
+Epoch 3/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 5.1628e-04
+Epoch 4/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 84ms/step - loss: 4.2700e-04
+Epoch 5/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m34s[0m 84ms/step - loss: 4.4377e-04
+Epoch 6/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 4.8884e-04
+Epoch 7/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m37s[0m 89ms/step - loss: 5.5723e-04
+Epoch 8/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 4.3603e-04
+Epoch 9/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 4.7070e-04
+Epoch 10/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m36s[0m 86ms/step - loss: 4.6992e-04
+Epoch 11/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m34s[0m 84ms/step - loss: 5.4584e-04
+Epoch 12/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 84ms/step - loss: 4.6541e-04
+Epoch 13/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 4.1439e-04
+Epoch 14/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 4.2513e-04
+Epoch 15/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 84ms/step - loss: 4.5181e-04
+Epoch 16/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m35s[0m 85ms/step - loss: 4.2427e-04
+Epoch 17/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - loss: 4.1483e-04  
+Epoch 18/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 197us/step - loss: 0.0000e+00
+Epoch 19/20
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 67us/step - loss: 0.0000e+00
+Epoch 20/20
+2024-10-27 05:01:46.808048: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 05:01:46.895426: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 05:01:46.979411: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+[1m413/413[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 72us/step - loss: 0.0000e+00
+[Model] Training Completed. Model saved as saved_models/LSTM_non-sentiment_5.keras
+Time taken: 0:09:24.918550
+aapl.csv
+[Model] Loading model from file saved_models/LSTM_non-sentiment_5.keras
+2024-10-27 05:01:47.009155: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+X: (9174, 49, 2)
+Y: (9174, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 287 batches per epoch
+Epoch 1/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m26s[0m 79ms/step - loss: 0.0039
+Epoch 2/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m23s[0m 79ms/step - loss: 0.0022
+Epoch 3/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m23s[0m 79ms/step - loss: 0.0037
+Epoch 4/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 82ms/step - loss: 0.0022
+Epoch 5/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 82ms/step - loss: 0.0021
+Epoch 6/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 83ms/step - loss: 0.0016
+Epoch 7/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 83ms/step - loss: 0.0027
+Epoch 8/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 84ms/step - loss: 0.0021
+Epoch 9/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 84ms/step - loss: 0.0024
+Epoch 10/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 83ms/step - loss: 0.0022
+Epoch 11/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 83ms/step - loss: 0.0015
+Epoch 12/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 84ms/step - loss: 0.0016
+Epoch 13/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 84ms/step - loss: 0.0020
+Epoch 14/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 86ms/step - loss: 0.0014
+Epoch 15/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 88ms/step - loss: 0.0026
+Epoch 16/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m25s[0m 88ms/step - loss: 0.0028
+Epoch 17/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 3ms/step - loss: 2.1708e-04  
+Epoch 18/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 284us/step - loss: 0.0000e+00
+Epoch 19/20
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 93us/step - loss: 0.0000e+00
+Epoch 20/20
+2024-10-27 05:08:14.346291: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 05:08:14.436704: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-27 05:08:14.518533: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+[1m287/287[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 99us/step - loss: 0.0000e+00
+[Model] Training Completed. Model saved as saved_models/LSTM_non-sentiment_5.keras
+Time taken: 0:06:26.909932
+amzn.csv
+[Model] Loading model from file saved_models/LSTM_non-sentiment_5.keras
+2024-10-27 05:08:14.548290: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+X: (5645, 49, 2)
+Y: (5645, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 177 batches per epoch
+Epoch 1/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m17s[0m 77ms/step - loss: 0.0083
+Epoch 2/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m14s[0m 81ms/step - loss: 0.0093
+Epoch 3/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 83ms/step - loss: 0.0093
+Epoch 4/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 86ms/step - loss: 0.0107
+Epoch 5/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 86ms/step - loss: 0.0143
+Epoch 6/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 87ms/step - loss: 0.0080
+Epoch 7/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 84ms/step - loss: 0.0074
+Epoch 8/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 84ms/step - loss: 0.0064
+Epoch 9/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 84ms/step - loss: 0.0060
+Epoch 10/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 84ms/step - loss: 0.0063
+Epoch 11/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 86ms/step - loss: 0.0066
+Epoch 12/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 87ms/step - loss: 0.0059
+Epoch 13/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 87ms/step - loss: 0.0066
+Epoch 14/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 86ms/step - loss: 0.0066
+Epoch 15/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 84ms/step - loss: 0.0069
+Epoch 16/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 84ms/step - loss: 0.0057
+Epoch 17/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 87ms/step - loss: 0.0054
+Epoch 18/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 87ms/step - loss: 0.0053
+Epoch 19/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 87ms/step - loss: 0.0058
+Epoch 20/20
+[1m177/177[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m15s[0m 88ms/step - loss: 0.0058
+[Model] Training Completed. Model saved as saved_models/LSTM_non-sentiment_5.keras
+Time taken: 0:05:03.933586
+msft.csv
+[Model] Loading model from file saved_models/LSTM_non-sentiment_5.keras
+X: (8047, 49, 2)
+Y: (8047, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 252 batches per epoch
+Epoch 1/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m24s[0m 79ms/step - loss: 0.0010
+Epoch 2/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 86ms/step - loss: 0.0010
+Epoch 3/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 88ms/step - loss: 0.0011
+Epoch 4/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 89ms/step - loss: 0.0010
+Epoch 5/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 89ms/step - loss: 9.5150e-04
+Epoch 6/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 88ms/step - loss: 9.2735e-04
+Epoch 7/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 85ms/step - loss: 9.4063e-04
+Epoch 8/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 84ms/step - loss: 9.6041e-04
+Epoch 9/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 85ms/step - loss: 9.8664e-04
+Epoch 10/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 88ms/step - loss: 9.8436e-04
+Epoch 11/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 88ms/step - loss: 9.4579e-04
+Epoch 12/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 85ms/step - loss: 0.0010
+Epoch 13/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 86ms/step - loss: 9.1167e-04
+Epoch 14/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 85ms/step - loss: 9.7825e-04
+Epoch 15/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 85ms/step - loss: 9.2843e-04
+Epoch 16/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 85ms/step - loss: 8.8630e-04
+Epoch 17/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 85ms/step - loss: 9.3134e-04
+Epoch 18/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 87ms/step - loss: 9.2694e-04
+Epoch 19/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m22s[0m 88ms/step - loss: 0.0010
+Epoch 20/20
+[1m252/252[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 85ms/step - loss: 9.5818e-04
+[Model] Training Completed. Model saved as saved_models/LSTM_non-sentiment_5.keras
+Time taken: 0:07:18.591590
+tsla.csv
+[Model] Loading model from file saved_models/LSTM_non-sentiment_5.keras
+X: (2839, 49, 2)
+Y: (2839, 1)
+[Model] Training Started
+[Model] 20 epochs, 32 batch size, 89 batches per epoch
+Epoch 1/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m11s[0m 80ms/step - loss: 0.0030
+Epoch 2/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 78ms/step - loss: 0.0063
+Epoch 3/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 81ms/step - loss: 0.0083
+Epoch 4/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 82ms/step - loss: 0.0080
+Epoch 5/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 84ms/step - loss: 0.0044
+Epoch 6/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 84ms/step - loss: 0.0043
+Epoch 7/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 84ms/step - loss: 0.0045
+Epoch 8/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 86ms/step - loss: 0.0042
+Epoch 9/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 89ms/step - loss: 0.0028
+Epoch 10/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 88ms/step - loss: 0.0024
+Epoch 11/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 88ms/step - loss: 0.0022
+Epoch 12/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 89ms/step - loss: 0.0023
+Epoch 13/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 84ms/step - loss: 0.0027
+Epoch 14/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 85ms/step - loss: 0.0027
+Epoch 15/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 85ms/step - loss: 0.0025
+Epoch 16/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 84ms/step - loss: 0.0029
+Epoch 17/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 85ms/step - loss: 0.0031
+Epoch 18/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m8s[0m 85ms/step - loss: 0.0030
+Epoch 19/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 84ms/step - loss: 0.0077
+Epoch 20/20
+[1m89/89[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 84ms/step - loss: 0.0068
+[Model] Training Completed. Model saved as saved_models/LSTM_non-sentiment_5.keras
+Time taken: 0:02:33.909798
