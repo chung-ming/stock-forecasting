@@ -4,5 +4,13 @@ stock-forecasting.code-workspace
 
 stock_news/external/all_external.csv
 stock_news/nasdaq/nasdaq_external_data.csv
-/data
-/core
+
+/temp
+/transformer
+
+# TODO
+# 2.  Refactor code
+#     2.1.  Convert pandas to pyspark
+# 4.  Able to feed real-time data and get predicted stock price result
+# 5.  Upload solution to Databricks and AWS and video it and delete it (one day)
+

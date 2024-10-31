@@ -6,6 +6,7 @@ numpy
 pandas
 pyspark
 python-dotenv
+seaborn
 scikit-learn
 sumy
 tensorflow
