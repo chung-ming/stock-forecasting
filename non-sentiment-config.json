@@ -1,14 +1,14 @@
 {
 	"data": {
 		"columns": [
-      "Close",
-      "Volume"
+			"Close",
+			"Volume"
 		],
     "columns_to_normalise": [
       0, 1
 		],
 		"sequence_length": 50,
-    "prediction_length": 3,
+		"prediction_length": 3,
 		"train_test_split": 0.85,
 		"normalise": true
 	},

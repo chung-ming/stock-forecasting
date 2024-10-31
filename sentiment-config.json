@@ -9,8 +9,8 @@
       0, 1
 		],
 		"sequence_length": 50,
-    "prediction_length": 3,
-		"train_test_split": 0.85,
+		"prediction_length": 3,
+		"train_test_split": 0.01, 
 		"normalise": true
 	},
 	"training": {
